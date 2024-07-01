@@ -28,9 +28,9 @@ CUDA_VISIBLE_DEVICES=2 python ./test.py /data/BDD100K/bdd100k/configs/deeplabv3+
 ## Model Performance on Night-time Images:
 Total Images = 3,929
 
-| Metric         | FCN                 | DeepLabv3+         | DNLNet              |
-|----------------|---------------------|--------------------|---------------------|
-| Mean IoU Score | 0.9630              | 0.9736             | 0.9748              |
-| Mean Accuracy  | 0.9676              | 0.9771             | 0.9781              |
-| Mean F1 Score  | 0.9808              | 0.9863             | 0.9868              |
+| Metric         | FCN                 | DeepLabv3+         | DNLNet              | UPerNet            |
+|----------------|---------------------|--------------------|---------------------|--------------------|
+| Mean IoU Score | 0.9630              | 0.9736             | 0.9748              | 0.9715             |
+| Mean Accuracy  | 0.9676              | 0.9771             | 0.9781              | 0.9753             |
+| Mean F1 Score  | 0.9808              | 0.9863             | 0.9868              | 0.9852             |
 
